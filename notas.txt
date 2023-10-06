@@ -1,0 +1,54 @@
+Linter
+- npm i -D eslint
+- npx eslint --init
+
+Prettier
+- npm i prettier
+- npx prettier src/main.jsx --write (formatear el archivo)
+- npx prettier . --check (analiza todo el proyecto)
+
+Para que Eslint y Prettier funcionen juntos
+- npm i eslint-config-prettier
+- agregar en .eslintrc -> extends 'eslint-config-prettier'
+
+//////////////////////////////////////////////////////////
+
+"Creando el entorno para React con Vite"
+
+Vite
+1. npm create vite@latest
+  Nombre/React/Javascript
+2. cambiar a la carpeta creada
+3. npm install
+4. npm run dev
+
+Para quitar el warning de la version de React
+  settings: {
+    react: {
+      version: 'detect', //
+    },
+  },
+
+Crear componente de React (ES) -> rfc
+
+
+
+Bootstrap
+1. en terminal -> npm install react-bootstrap bootstrap
+2. pegar en main.jsx -> import 'bootstrap/dist/css/bootstrap.min.css'
+3. importar botones y diseños como el Bootstrap normal
+
+Hooks
+- useState
+  1. Se importa UseState de React -> import { useState } from 'react'
+  2. se define una constante, una función que modifica la constante y el valor inicial -> const [like, setLike] = useState(false)
+
+- useEffect
+  1. Ejecuta código cuando el componente se renderiza.
+  2. Recibe 2 parámetros una función y un array.
+
+Repo:
+https://github.com/joelLozano/celulares-app
+
+API:
+https://api-pelis-back.onrender.com/cienciaFiccion

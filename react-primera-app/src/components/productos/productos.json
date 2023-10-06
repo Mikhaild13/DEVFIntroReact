@@ -1,0 +1,29 @@
+{
+  "celulares" : [
+    {
+      "title": "iPhone 15", 
+      "description": "Dinamic Island",
+      "price": "$ 799"
+    },
+    {
+      "title": "Xiaomi 12",
+      "description": "Precio-calidad",
+      "price": "$ 499"
+    },
+    {
+      "title": "Samsung S23",
+      "description": "Android OS",
+      "price": "$ 699"
+    },
+    {
+      "title": "Huawei P40 Pro",
+      "description": "Sin Google services",
+      "price": "$ 399"
+    },
+    {
+      "title": "Motorola Razor",
+      "description": "Bateria ilimitada",
+      "price": "$ 599"
+    }
+  ]
+}
